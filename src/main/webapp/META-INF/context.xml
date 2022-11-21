@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/CoffeProject">
+    <Resource auth="Container"
+    	driverClassName="com.mysql.cj.jdbc.Driver"
+        factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+        maxActive="10"
+        minIdle="2"
+        maxIdle="6"
+        maxWait="1000"
+        name="jdbc/coffedb"
+        username="CoffeeProj"
+        password="YrZj2nzfvwnuUBQ"
+        type="javax.sql.DataSource"
+        url="jdbc:mysql://localhost:3306/coffedb"
+        testOnBorrow="true"
+        validationQuery="SELECT 1" />
+</Context> 
